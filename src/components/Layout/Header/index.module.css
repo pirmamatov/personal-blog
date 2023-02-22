@@ -1,0 +1,38 @@
+header{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow:  0 2px 4px  rgb(0 0 0 / 8%);
+    position: relative;
+    z-index:  44;
+}
+
+h3{
+    margin-left: 200px;
+}
+h3 a{
+    font-size: 34px;
+}
+nav ul {
+    display: flex;
+    margin-right: 200px;
+    
+}
+
+li{
+    margin-right: 30px; 
+}
+nav a {
+    text-transform: capitalize;
+    
+    color: #000;
+}
+header.active{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 4px 0 rgb(115 115 115 / 20%);
+}
+section {
+    height:45vh;
+}
